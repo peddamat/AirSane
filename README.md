@@ -74,6 +74,7 @@ git clone https://github.com/SimulPiscator/AirSane.git
 mkdir AirSane-build && cd AirSane-build
 cmake ../AirSane
 make
+make install
 ```
 #### Install
 The provided systemd service file assumes that user and group
